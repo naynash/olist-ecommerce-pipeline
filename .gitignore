@@ -1,0 +1,16 @@
+# Large data files
+Dataset/
+logs/
+
+# dbt internals
+olist_project/target/
+olist_project/dbt_packages/
+olist_project/logs/
+
+# Credentials
+profiles.yml
+*.env
+
+# OS
+Thumbs.db
+.DS_Store

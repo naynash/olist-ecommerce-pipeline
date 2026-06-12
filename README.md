@@ -95,5 +95,6 @@ The Power BI dashboard has 5 pages connected via DirectQuery to the Gold layer:
 ## Notes
 
 - `profiles.yml` is excluded from this repo — connection credentials should never be committed
+- `storage_integration.sql` is excluded — it contains AWS account-specific ARNs and should not be shared publicly
 - Large data files are excluded via `.gitignore`
 - The `analyst_role` in Snowflake has SELECT-only access to Silver and Gold schemas
